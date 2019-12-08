@@ -13,30 +13,35 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+		<!-- custom css -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
 		<title>Zip Code Search</title>
 	</head>
 	<body>
 		<div class="container">
 
-			<div class="row">
+			<h1 class="text-center">Zipcode Search Tool</h1>
+
+			<div class="row row-top-padding">
 				<div class="col-md-5">
 
-					<h1 class="text-center">Zip Code Search</h1>
+					<h3 class="text-center">Zip Code Search</h1>
 						<input type="number" onkeyup="showZipCodes(this.value)" placeholder="Enter zip code" class="form-control">
 
-						<div id="zip-results">
+						<div id="zip-results" class="search-results">
 						</div>
 
 				</div>
 
-				<div class="col-md-1">
+				<div class="col-md-2">
 				</div>
 
 				<div class="col-md-5">
-					<h1 class="text-center">City Search</h1>
+					<h3 class="text-center">City Search</h1>
 						<input type="text" onkeyup="showCities(this.value)" placeholder="Enter city" class="form-control">
 
-						<div id="city-results">
+						<div id="city-results" class="search-results">
 						</div>
 				</div>
 
