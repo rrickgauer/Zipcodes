@@ -27,20 +27,26 @@
 				<div class="col-md-5">
 
 					<h3 class="text-center">Zip Code Search</h1>
+
+						<!-- zipcode search box -->
 						<input type="number" onkeyup="showZipCodes(this.value)" placeholder="Enter zip code" class="form-control">
 
+						<!-- zip code search results table -->
 						<div id="zip-results" class="search-results">
 						</div>
 
 				</div>
 
-				<div class="col-md-2">
-				</div>
+				<!-- middle space -->
+				<div class="col-md-2"></div>
 
 				<div class="col-md-5">
 					<h3 class="text-center">City Search</h1>
+
+						<!-- city input -->
 						<input type="text" onkeyup="showCities(this.value)" placeholder="Enter city" class="form-control">
 
+						<!-- city results table -->
 						<div id="city-results" class="search-results">
 						</div>
 				</div>
